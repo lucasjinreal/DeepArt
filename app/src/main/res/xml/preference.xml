@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/string_normal">
+
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/string_save"
+        android:key="check_box_preference_1" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/string_autosave"
+        android:key="switch_preference_1" />
+    <PreferenceCategory android:title="@string/string_advanced">
+
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/string_cnn"
+        android:key="check_box_preference_2"
+        android:summary="@string/string_summary_cnn" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/string_vgg"
+        android:key="check_box_preference_3"
+        android:summary="@string/string_summary_vgg" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/string_gpu"
+        android:key="check_box_preference_4"
+        android:summary="@string/string_summary_gpu" />
+</PreferenceScreen>
